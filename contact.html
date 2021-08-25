@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="css/ContactStyle.css">
 </head>
-<body>
+<body>    
+    <h1>Contact Me</h1>
+    <form action="mailto:kerchia.chen@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <div id="container">
+            <label for="message">Message:</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit">
+    </form>
     <a href="index.html">Home</a>
 </body>
 </html>
