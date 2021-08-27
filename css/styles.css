@@ -1,8 +1,67 @@
-/* h1{
-    color: pink;
-} */
+#title{
+    padding-bottom: 10%;
+    background-color: #ff4c68;
+    color: white;
+}
 
-img{
+#features{
+    background-color: white;
+    position: relative;
+    z-index:1;
+}
+
+body{
+    font-family: 'Montserrat',serif;
+}
+
+.navbar{
+    padding-bottom: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Abril Fatface', serif;
+    font-size: 48px;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+h1{
+    /* font-family: "Comic Sans, Comic Sans MS, cursive"; */
+    /* font-family: 'Alfa Slab One',serif; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+.no-gutters{
+    padding:3% 15%;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width:20%;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 25%;
+}
+
+@media (max-width:800px) {
+#title{
+    text-align:center;
+}
+.title-image{
+    position: static;
+    transform: rotate(0deg);
+    width:80%;
+}
+}
+
+/* img{
     height: 250px;
     width: 300px;
 }
@@ -20,4 +79,4 @@ img{
 
 button{
     width:100px;
-}
+} */
